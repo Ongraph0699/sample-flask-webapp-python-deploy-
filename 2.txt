@@ -1,0 +1,87 @@
+
+Log file find
+Nginx ke log and flask logs find find another way of deployment
+Proxy
+Upstream vs proxy pass
+Nginx conf file importance
+ Read deeply Sites-available and sites-enabled
+Server block
+Ssl generate pem key read and find path of it
+Chain.pem
+full .pem
+Privkey.pem read in details
+
+sudo apt update
+sudo apt upgrade
+ sudo apt install python3 python3-pip
+ sudo apt install nginx
+ systemctl start nginx
+ systemctl enable nginx
+Mkdir -p /new/project
+Cd project
+Vi flaskapp.py
+ vi wsgi.py
+python3 -m venv venv
+source venv/bin/activate
+pip install gunicorn flask
+gunicorn --bind 0.0.0.0:5000 wsgi:app
+python3 flaskapp.py
+gunicorn --bind 0.0.0.0:5000 wsgi:app
+sudo nano /etc/systemd/system/flask.service
+sudo chown -R cloud_user:www-data /home/cloud_user/new/project
+ sudo chown -R 775 /home/cloud_user/new/project
+ sudo systemctl daemon-reload
+ sudo systemctl start flask
+ sudo systemctl enable flask
+ sudo systemctl status flask
+ sudo nano /etc/nginx/conf.d/flask.conf
+  nginx -t
+  sudo nginx -t
+  sudo systemctl restart nginx
+  sudo systemctl status nginx
+  sudo nginx -t
+
+sudo vi flaskapp
+   sudo ln -s /etc/nginx/sites-available/flaskapp /etc/nginx/sites-enabled/
+   sudo nginx -t
+  sudo vi flaskapp
+  sudo nginx -t
+
+ sudo nginx -s reload
+
+sudo vi /etc/nginx/conf.d/
+cd /etc/nginx/sites-available/
+
+sudo systemctl restart nginx
+sudo certbot --nginx
+
+sudo snap install --classic certbot
+
+sudo chmod 777 flaskapp.py
+
+sudo nano /etc/systemd/system/myproject.service
+
+sudo systemctl start Flask
+ sudo systemctl start flask
+ sudo systemctl enable flask
+ sudo systemctl status flask
+
+  sudo chmod +x flask.service
+
+ sudo systemctl daemon-reload
+
+ sudo systemctl start flask.service
+
+ sudo systemctl status flask.service
+
+
+
+
+
+
+
+
+
+
+
+
