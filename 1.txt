@@ -1,0 +1,782 @@
+    1  sudo su
+    2  mkdir webapp
+    3  cd webapp/
+    4  sudo apt update
+    5  sudo apt upgrade
+    6  sudo apt install python3 python3-pip
+    7  mkdir my_flask_app
+    8  cd my_flask_app/
+    9  vi app.py
+   10  sudo apt install python3-venv
+   11  python3 -m venv venv
+   12  source venv/bin/activate
+   13  pip install flask
+   14  python app.py
+   15  pip install gunicorn
+   16  gunicorn -w 4 -b 0.0.0.0:5000 app:app
+   17  history
+   18  python app.py
+   19  ls
+   20  cd webapp/
+   21  ls
+   22  ls
+   23  history
+   24  python app.py
+   25  history
+   26  ls
+   27  vi app.py 
+   28  cd venv/
+   29  ls
+   30  cd
+   31  ls
+   32  cd webapp/
+   33  ls
+   34  sudo apt install nginx
+   35  history
+   36  python3 -m venv venv
+   37  source venv/bin/activate
+   38  ls
+   39  python app.py
+   40  gunicorn -w 4 -b 0.0.0.0:5000 app:app
+   41  vi /etc/systemd/system.service
+   42  vi /etc/systemd/system.service/peak.service
+   43  nginx --version
+   44  nginx -version
+   45  sudo apt install nginx
+   46  v /etc/nginx/sites-available/peak.conf
+   47  vi /etc/nginx/sites-available/peak.conf
+   48  ls
+   49  systemctl start nginx
+   50  systemctl status nginx
+   51  sudo vi /etc/nginx/sites-availables/my_flask_app
+   52  sudo nano /etc/nginx/sites-availables/my_flask_app
+   53  sudo vi /etc/nginx/sites-availables/my_flask_app
+   54  ls -ltr /etc/nginx/sites-availables/my_flask_app
+   55  sudo nano /etc/nginx/sites-availables/my_flask_app
+   56  vi /etc/nginx/sites-availble
+   57  cd nginx
+   58  cd
+   59  ls
+   60  which nginx
+   61  cd /usr/
+   62  ls
+   63  cd sbin/
+   64  ls
+   65  cd nginx
+   66  cd
+   67  ls
+   68  cd webapp/
+   69  ls
+   70  cd my_flask_app/
+   71  ls
+   72  which nginx
+   73  cd /etc/nginx/sites-available/
+   74  sudo vi /etc/nginx/sites-available/my_flask_app
+   75  sudo ln -s /etc/nginx/sites-available/my_flask_app /etc/nginx/sites-enabled/
+   76  sudo nginx -t
+   77  sudo systemctl restart nginx
+   78  python app.py
+   79  history
+   80  sudo systemctl restart nginx
+   81  python app.py
+   82  source /venv/bin/activate
+   83  cd
+   84  exit
+   85  source venv/bin/activate
+   86  python3 -m venv venv
+   87  source venv/bin/activate
+   88  python app.py
+   89  ls
+   90  rm -rf venv
+   91  l
+   92  ls
+   93  python3 -m venv venv
+   94  source venv/bin/activate
+   95  python app.py
+   96  pwd
+   97  exit
+   98  ls
+   99  cd webapp/
+  100  cd my_flask_app/
+  101  ls
+  102  cd venv
+  103  ls
+  104  ls -l app.py
+  105  cd ..
+  106  history
+  107  sudo apt install httpd
+  108  sudo apt install apache2
+  109  ls
+  110  python -v
+  111  python app.py
+  112  cat app.py 
+  113  pip install Flask
+  114  python app.py
+  115  curl 172.31.108.50:5000
+  116  sudo curl 172.31.108.50:5000
+  117  netstat -tnlp
+  118  sudo apt install net-tools
+  119  netstat -tnlp
+  120  cd
+  121  cd webapp/
+  122  ls
+  123  cd my_flask_app/
+  124  ls
+  125  ls -l app.py
+  126  chmod +x app.py
+  127  ls -l app.py
+  128  python3 app.py
+  129  source venv/bin/activate
+  130  python3 app.py
+  131  cd my_flask_app/
+  132  ls
+  133  cat app.py
+  134  cd
+  135  exit
+  136  mkdir new
+  137  cd new/
+  138  sudo apt-get install python3 python3-pip python3-dev build-essential libssl-dev libffi-dev python3-setuptools -y
+  139  apt-get install python3-venv -y
+  140  sudo apt-get install python3-venv -y
+  141  sudo apt-get install nginx -y
+  142  systemctl start nginx
+  143  systemctl enable nginx
+  144  mkdir ~/project
+  145  cd p
+  146  ls
+  147  mkdir project
+  148  ls
+  149  cd project/
+  150  python3 -m venv venv
+  151  source venv/bin/activate
+  152  pip install wheel
+  153  pip install gunicorn flask
+  154  vi flaskapp.py
+  155  python3 flaskapp.py
+  156  ls
+  157  vi wsgi.py
+  158  gunicorn --bind 0.0.0.0:5000 wsgi:app
+  159  deactivate
+  160  nano /etc/systemd/system/flask.service
+  161  sudo nano /etc/systemd/system/flask.service
+  162  chown -R root:www-data /root/project
+  163  sudo chown -R root:www-data /root/project
+  164  sudo chown -R root:www-data /new/project
+  165  pwd
+  166  sudo chown -R root:www-data /home/cloud_user/new/project
+  167  sudo chown -R 775 /home/cloud_user/new/project
+  168  systemctl daemon-reload
+  169  systemctl start flask
+  170  systemctl enable flask
+  171  systemctl status flask
+  172  sudo nano /etc/systemd/system/flask.service
+  173  pwd
+  174  sudo nano /etc/systemd/system/flask.service
+  175  sudo chown -R root:www-data /home/cloud_user/new/project
+  176  sudo chown -R 775 /home/cloud_user/new/project
+  177  systemctl daemon-reload
+  178  systemctl enable flask
+  179  systemctl status flask
+  180  sudo nano /etc/systemd/system/flask.service
+  181  sudo chown -R cloud_user:www-data /home/cloud_user/new/project
+  182  sudo chown -R 775 /home/cloud_user/new/project
+  183  sudo systemctl daemon-reload
+  184  sudo systemctl start flask
+  185  sudo systemctl enable flask
+  186  sudo systemctl status flask
+  187  sudo nano /etc/nginx/conf.d/flask.conf
+  188  nginx -t
+  189  sudo nginx -t
+  190  sudo systemctl restart nginx
+  191  sudo systemctl status nginx
+  192  sudo nginx -t
+  193  cd
+  194  ls
+  195  apt-get update -y
+  196  sudo apt-get update -y
+  197  sudo apt-get upgrade -y
+  198  sudo apt-get install python3 python3-pip python3-dev build-essential libssl-dev libffi-dev python3-setuptools -y
+  199  sudo apt-get install python3-venv -y
+  200  sudo apt-get install nginx -y
+  201  sudo systemctl status nginx.service 
+  202  ls
+  203  cd webapp/
+  204  ls
+  205  curl ifconfig.me
+  206  curl ifconfig.me -ipv4
+  207  ls
+  208  cd
+  209  ls
+  210  cd project/
+  211  ls
+  212  cd ..
+  213  cd new/
+  214  ls
+  215  cd project/
+  216  ls
+  217  python3 flaskapp.py 
+  218  netstat -tlnp | 5000
+  219  netstat -tlnp 
+  220  sudo netstat -tlnp 
+  221  kill -9 5650/python3
+  222  sudo kill 5650/python3
+  223  sudo kill 5650
+  224  sudo netstat -tlnp 
+  225  python3 flaskapp.py 
+  226  sudo netstat -tlnp 
+  227  curl localhost
+  228  cd /etc/nginx/sites-available/
+  229  ls
+  230  cat default 
+  231  cat my_flask_app 
+  232  cat default 
+  233  cd /var/www/html/
+  234  ls
+  235  cat index.
+  236  cat index.html 
+  237  cat index.nginx-debian.html 
+  238  ls -l
+  239  rm index.
+  240  rm index.html 
+  241  sudo rm index.html 
+  242  sudo mv index.nginx-debian.html  index.html
+  243  ls
+  244  cd -
+  245  ls
+  246  cat default 
+  247  sudo vi default 
+  248  sudo systemctl restart nginx
+  249  cd
+  250  ls
+  251  cd new/
+  252  ls
+  253  cd project/
+  254  ls
+  255  python3 flask.ap
+  256  python3 flaskapp.py 
+  257  sudo vi default 
+  258  ls
+  259  sudo vi default 
+  260  cd
+  261  sudo vi default 
+  262  ls
+  263  cd /etc/nginx/sites-available/
+  264  ls
+  265  vi my_flask_app 
+  266  cd
+  267  ls
+  268  cd new/
+  269  ls
+  270  cd project/
+  271  ls
+  272  vi flaskapp.py 
+  273  cd
+  274  cd /etc/nginx/sites-available/
+  275  ls
+  276  sudo vi flaskapp
+  277  sudo ln -s /etc/nginx/sites-available/flaskapp /etc/nginx/sites-enabled/
+  278  sudo nginx -t
+  279  sudo vi flaskapp
+  280  sudo nginx -t
+  281  sudo nginx -s relaod
+  282  sudo nginx -s reoad
+  283  sudo nginx -s reload
+  284  cd
+  285  cd new/project/
+  286  ls
+  287  python3 flaskapp.py 
+  288  curl ifconfig.me -ipv4
+  289  sudo netstat -tlnp 
+  290  cd /etc/nginx/sites-available/
+  291  ls
+  292  sudo vim default 
+  293  sudo nginx -s reload
+  294  cd -
+  295  python3 flaskapp.py 
+  296  sudo vi /etc/nginx/sites-available/
+  297  sudo su
+  298  vi /etc/ssh/sshd_config
+  299  sudo vi /etc/ssh/sshd_config
+  300  sudo systemctl sshd restart 
+  301  sudo su
+  302  sudo vi /etc/ssh/sshd_config
+  303  sudo systemctl sshd restart 
+  304  sudo snap install --classic certbot
+  305  sudo ln -s /snap/bin/certbot /usr/bin/certbot
+  306  sudo certbot --nginx
+  307  which nginx
+  308  cd nginx
+  309  sudo vi /etc/nginx/conf.d/
+  310  sudo vi /etc/nginx/sites-available/
+  311  cd /etc/nginx/sites-available/
+  312  ls
+  313  cat default 
+  314  cat default q!
+  315  ls
+  316  vi default q!
+  317  vi flaskapp 
+  318  sudo vi flaskapp 
+  319  sudo systemctl restart nginx
+  320  sudo certbot --nginx
+  321  cd
+  322  ls
+  323  cd new
+  324  ls
+  325  cd project/
+  326  ls
+  327  cd ..
+  328  ls
+  329  git init
+  330  git add.
+  331  git add .
+  332  git commit .
+  333  git remote add origin https://github.com/Ongraph0699/sample-flask-webapp-python-deploy-.git
+  334  git branch -M main
+  335  git remote add origin https://github.com/Ongraph0699/sample-flask-webapp-python-deploy-.git
+  336  git commit -m "first commit"
+  337  clear
+  338  git config --global credentials.helper store
+  339  git clone https://github.com/Ongraph0699/sample-flask-webapp-python-deploy-.git
+  340  git add .
+  341  ls
+  342  git add .
+  343  git commit -m "2 commit"
+  344  git config --global user.email "rishi.ongraph@gmail.com"
+  345  git config --global user.email "rishi"
+  346  git commit -m "2 commit"
+  347  git config --global user.name "ongraph"
+  348  git commit -m "2 commit"
+  349  git push origin master
+  350  ls
+  351  cd sample-flask-webapp-python-deploy-/
+  352  ls
+  353  ls -a
+  354  cd ..
+  355  cd project/
+  356  ls
+  357  cp -p * ../sample-flask-webapp-python-deploy-/
+  358  cd ..
+  359  cd sample-flask-webapp-python-deploy-/
+  360  ls
+  361  cd ../project/
+  362  cp -rvf * ../sample-flask-webapp-python-deploy-/
+  363  cd sample-flask-webapp-python-deploy-/
+  364  ls
+  365  cd
+  366  ls
+  367  cd new/
+  368  ls
+  369  ls
+  370  git add .
+  371  git commit -m "1"
+  372  git push origin
+  373  git push -u origin main
+  374  git push -u origin 
+  375  git remote set-url origin https://<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>@github.com/<Ongraph>/<sample-flask-webapp-python-deploy->
+  376  git remote set-url origin https://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@github.com/Ongraph0699/sample-flask-webapp-python-deploy-
+  377  git push -u origin
+  378  exit
+  379  ls
+  380  cd new
+  381  cd
+  382  sudo snap install --classic certbot
+  383  cd .ssh/
+  384  ssh-keygen
+  385  ls
+  386  cat id_rsa
+  387  cat id_rsa.pub 
+  388  cat >> authorized_keys 
+  389  cat authorized_keys 
+  390  vi id_rsa
+  391  ls
+  392  history
+  393  sudo cd /etc/nginx/sites-available/
+  394  cd /etc/nginx/sites-available/
+  395  vi default 
+  396  ls
+  397  cat my_flask_app 
+  398  cd ..
+  399  ls
+  400  cd ..
+  401  ls
+  402  cd /usr/www
+  403  cd /usr
+  404  ls
+  405  cd ..
+  406  cd /var/www
+  407  ls
+  408  cd html/
+  409  ls
+  410  cat index.html 
+  411  cd ..
+  412  ls
+  413  cd home/
+  414  ls
+  415  cd cloud_user/
+  416  ls
+  417  cd new/
+  418  ls
+  419  cd project/
+  420  ls
+  421  python3 -m venv venv
+  422  sudo python3 -m venv venv
+  423  sudo source venv/bin/activate
+  424  source venv/bin/activate
+  425  exit
+  426  cd /etc/nginx/sites-enabled/
+  427  ls
+  428  cat flaskapp 
+  429  cd 
+  430  ls
+  431  history
+  432  clear
+  433  ls
+  434  cd new/
+  435  ls
+  436  cd project/
+  437  ls
+  438  vi flaskapp.py 
+  439  cd /etc/nginx/sites-available/
+  440  ls
+  441  vi flaskapp 
+  442  cd ..
+  443  cd /usr/
+  444  ls
+  445  cd ..
+  446  cd var/
+  447  ls
+  448  cd www/html
+  449  ls
+  450  cat index.html 
+  451  cd 
+  452  cd /etc/nginx/sites-available/
+  453  ls
+  454  vi default 
+  455  vi flaskapp 
+  456  cd ..
+  457  cd sites-enabled/
+  458  ls
+  459  vi flaskapp 
+  460  vi default 
+  461  vi flaskapp 
+  462  vi my_flask_app 
+  463  ls
+  464  cat default 
+  465  cat flaskapp 
+  466  cd ..
+  467  ls
+  468  cd var/
+  469  ls
+  470  cd www/
+  471  ls
+  472  cd html/
+  473  ls
+  474  cat index.html 
+  475  cd ..
+  476  history 
+  477  cd /etc/nginx/
+  478  ls
+  479  cat conf.d/
+  480  cd conf.d/
+  481  ls
+  482  cat flask.conf 
+  483  cd ..
+  484  ls
+  485  cat nginx.conf 
+  486  ls
+  487  cd conf.d/
+  488  ls
+  489  cat flask.conf 
+  490  cd ..
+  491  ls
+  492  cd home/
+  493  cd cloud_user/
+  494  ls
+  495  cd new/
+  496  ls
+  497  cd project/
+  498  ls
+  499  cat flaskapp.py 
+  500  vi flaskapp.py 
+  501  sudo vi flaskapp.py 
+  502  python3 flask.app
+  503  python3 -m venv venv
+  504  sudo python3 -m venv venv
+  505  sudo flask.app
+  506  python flask.app
+  507  python3 flask.app
+  508  sudo python3 flask.app
+  509  sudo python flask.app
+  510  source venv/bin/activate
+  511  python flask.app
+  512  python3 flask.app
+  513  python app.py
+  514  python flask.py
+  515  python3 app.py
+  516  cd ..
+  517  exit
+  518  sudo nginx -t
+  519  sudo systemctl reload nginx
+  520  cd project/
+  521  ls
+  522  cd ..
+  523  ls
+  524  cd new/
+  525  cd project/
+  526  ls
+  527  python flaskpp.py
+  528  sudo python flaskapp.py
+  529  sudo apt install flask
+  530  ls
+  531  cat wsgi.py 
+  532  sudo python3 flaskapp.py
+  533  ls
+  534  cat flaskapp.py 
+  535  sudo python3 flaskapp.py
+  536  cd project/
+  537  cd n
+  538  cd ..
+  539  cd new/
+  540  cd project/
+  541  ls
+  542  sudo python3 flaskapp.py
+  543  pip install flask
+  544  sudo python3 flaskapp.py
+  545  pip install Flask
+  546  sudo python3 flaskapp.py
+  547  rm -rf venv/
+  548  sudo rm -rf venv/
+  549  sudo python3 -m venv venv
+  550  sudo python3 flaskapp.py
+  551  ls
+  552  ls -ltr flaskapp.py 
+  553  sudo chmod 777 flaskapp.py 
+  554  sudo python3 flaskapp.py
+  555  source venv/bin/activate
+  556  ls
+  557  sudo python3 flaskapp.py
+  558  python3 flaskapp.py
+  559  pip install flask
+  560  python3 flaskapp.py
+  561  pip list
+  562  sudo pip install flask
+  563  python3 flaskapp.py
+  564  sudo python3 flaskapp.py
+  565  cat flaskapp.py 
+  566  sudo nginx -t
+  567  sudo systemctl reload nginx
+  568  cat flaskapp.py 
+  569  sudo python3 flaskapp.py
+  570  sudo ps 
+  571  ps
+  572  exit
+  573  ps
+  574  ps -aux
+  575  netstat -tlnp
+  576  ps -aux 
+  577  netstat -tlnp
+  578  lsof -ti
+  579  lsof -ti :5000
+  580  ps -aux 
+  581  lsof -ti :5000
+  582  lsof -ti
+  583  ps 968
+  584  ps -aux
+  585  sudo netstat -tlnp 
+  586  ps
+  587  ps -aux
+  588  sudo netstat -tlnp 
+  589  kill 592
+  590  sudo netstat -tlnp 
+  591  cd project/
+  592  cd ..
+  593  cd new/
+  594  cd project/
+  595  ls
+  596  python3 flaskapp.py
+  597  sudo netstat -tlnp 
+  598  sudo rm -rf venv
+  599  python3 -m venv venv
+  600  sudo python3 -m venv venv
+  601  source venv/bin/activate
+  602  python3 flaskapp.py
+  603  sudo python3 flaskapp.py
+  604  cat flaskapp.py 
+  605  python3 flaskapp.py
+  606  sudo python3 flaskapp.py 
+  607  cd ..
+  608  exit
+  609  source venv/bin/activate
+  610  ls
+  611  cd venv/
+  612  ls
+  613  python3 flaskapp.py
+  614  sudo python3 flaskapp.py
+  615  cd ..
+  616  exit
+  617  sudo vi /etc/nginx/sites-available/
+  618  cat flaskapp
+  619  history
+  620  history
+  621  ls
+  622  cd new/
+  623  ls
+  624  cd project/
+  625  ls
+  626  sudo python3 flaskapp.py
+  627  pip install gunicorn
+  628  gunicorn -w 4 -b 0.0.0.0:5000 app:app
+  629  gunicorn --bind 0.0.0.0:5000 wsgi:app
+  630  sudo netstat -tlnp 
+  631  gunicorn --bind 0.0.0.0:5000 wsgi:app
+  632  sudo nginx -t
+  633  sudo systemctl reload nginx
+  634  sudo python3 flaskapp.py
+  635  gunicorn --bind 0.0.0.0:5000 wsgi:app
+  636  source venv/bin/activate
+  637  gunicorn --bind 0.0.0.0:5000 wsgi:app
+  638  gunicorn --bind 0.0.0.0:5000 app:app
+  639  gunicorn --bind 0.0.0.0:5000 wsgi:app
+  640  sudo apt update
+  641  sudo ufw allow 5000
+  642  gunicorn --bind 0.0.0.0:5000 wsgi:app
+  643  history
+  644  sudo nohup python app1c.py > log.txt 2>&1 &
+  645  > log.txt
+  646  2>&1
+  647  gunicorn --bind 0.0.0.0:5000 wsgi:app
+  648  sudo python app1c.py >> log.txt 2>&1 &
+  649  ">> log.txt"
+  650  sudo python app1c.py >> log.txt 2>&1 &
+  651  cat log.txt
+  652  sudo python app1c.py >> log.txt 2>&1 
+  653  sudo python3 flaskapp.py >> log.txt 2>&1 &
+  654  sudo python3 flaskapp.py &
+  655  sudo nano /etc/systemd/system/myproject.service
+  656  cd /etc/systemd/
+  657  ls
+  658  cd ..
+  659  ls
+  660  exit
+  661  cd /etc/systemd/
+  662  ls
+  663  vi bg.service
+  664  cd system/
+  665  ls
+  666  vi flask.service 
+  667  sudo systemctl start myproject
+  668  sudo systemctl start new
+  669  vi flask.service 
+  670  sudo systemctl start Flask
+  671  sudo systemctl start flask
+  672  sudo systemctl enable flask
+  673  sudo systemctl status flask
+  674  cd ..
+  675  clear
+  676  cd
+  677  ls
+  678  cd new/project/
+  679  ls
+  680  sudo 
+  681  vim flaskapp.py 
+  682  sudo systemctl reload nginx
+  683  systemctl start flask
+  684  systemctl enable flask
+  685  cat flaskapp.py 
+  686  python3 flaskapp.py 
+  687  sudo systemctl reload flask
+  688  sudo nano /etc/systemd/system/myproject.service
+  689  ls
+  690  cd
+  691  cd /etc/systemd/
+  692  ls
+  693  cd system/
+  694  ls
+  695  cat flask.service 
+  696  ls -l
+  697  sudo nano flask.service 
+  698  sudo systemctl stop flask.service
+  699  netstat -tnlp
+  700  sudo systemctl status flask.service
+  701  vim flask.service 
+  702  sudo systemctl status flask.service
+  703  vim flask.service 
+  704  cd ..
+  705  ls
+  706  cd home/
+  707  cd cloud_user/
+  708  ls
+  709  cd new/
+  710  cd project/
+  711  ls
+  712  cd venv/
+  713  ls
+  714  cd bin/
+  715  ls
+  716  cd ..
+  717  vim flask.service 
+  718  cd ..
+  719  ls
+  720  cd /etc/systemd/system/
+  721  ls
+  722  vi flask.service 
+  723  sudo vi flask.service 
+  724  sudo systemctl reload flask.service
+  725  sudo systemctl start flask.service
+  726  sudo systemctl daemon-reload flask.service
+  727  sudo systemctl status flask.service
+  728  sudo vi flask.service 
+  729  ls -l flask.service 
+  730  chmod +x flask.service 
+  731  sudo chmod +x flask.service 
+  732  ls -l flask.service 
+  733  sudo systemctl daemon-reload flask.service
+  734  sudo systemctl status flask.service
+  735  sudo vi flask.service 
+  736  sudo systemctl daemon-reload flask.service
+  737  sudo systemctl status flask.service
+  738  which gunicorn
+  739  sudo vi flask.service 
+  740  sudo systemctl daemon-reload flask.service
+  741  sudo systemctl status flask.service
+  742  sudo systemctl start flask.service
+  743  sudo systemctl daemon-reload flask.service
+  744  sudo systemctl daemon-reload
+  745  sudo systemctl start flask.service
+  746  sudo systemctl status flask.service
+  747  netstat -tnlp
+  748  netstat -tnlp | pid
+  749  netstat -tnlp
+  750  sudo netstat -tnlp
+  751  sudo kill 4343
+  752  sudo systemctl daemon-reload
+  753  sudo systemctl start flask.service
+  754  sudo systemctl status flask.service
+  755  ls
+  756  cd new/
+  757  cd project/
+  758  ls
+  759  vi flaskapp.py 
+  760  history
+  761  sudo systemctl daemon-reload
+  762  sudo systemctl start flask.service
+  763  sudo systemctl status flask.service
+  764  cd /etc/letsencrypt/
+  765  ls
+  766  cat options-ssl-nginx.conf 
+  767  cd ..
+  768  ls
+  769  cd -
+  770  cd /etc/nginx/sites-enabled/
+  771  ls
+  772  cat flaskapp 
+  773  cat /etc/letsencrypt/live/
+  774  cd /etc/letsencrypt/live/
+  775  sudo su 
+  776  cd 
+  777  ls
+  778  cd /etc/letsencrypt/live/
+  779  sudo cd /etc/letsencrypt/live/
+  780  exit
+  781  history
+  782  history >>1.txt

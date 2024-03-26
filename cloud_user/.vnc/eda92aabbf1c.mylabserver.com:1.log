@@ -1,0 +1,1246 @@
+
+Xvnc TigerVNC 1.10.0 - built Jan 23 2024 20:31:07
+Copyright (C) 1999-2019 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12013000, The X.Org Foundation
+
+
+Fri Mar 22 04:55:33 2024
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5901
+ vncext:      created VNC server for screen 0
+xrdb: No such file or directory
+xrdb: can't open file '/home/cloud_user/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+gpg-agent[1253]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:998): xfce4-session-WARNING **: 04:55:46.906: gpg-agent returned no PID in the variables
+
+(xfce4-session:998): xfce4-session-WARNING **: 04:55:46.909: xfsm_manager_load_session: Something wrong with /home/cloud_user/.cache/sessions/xfce4-session-eda92aabbf1c.mylabserver.com:1, Does it exist? Permissions issue?
+
+(xfwm4:1274): xfwm4-WARNING **: 04:55:53.982: Unsupported GL renderer (llvmpipe (LLVM 12.0.0, 256 bits)).
+
+(xfce4-session:998): xfce4-session-WARNING **: 04:55:55.808: Unable to launch "/usr/bin/ubuntu-report send upgrade" (specified by autostart/ubuntu-report-on-upgrade.desktop): Failed to execute child process “/usr/bin/ubuntu-report” (No such file or directory)
+
+(xfce4-session:998): xfce4-session-WARNING **: 04:55:55.851: Unable to launch "/usr/libexec/deja-dup/deja-dup-monitor" (specified by autostart/org.gnome.DejaDup.Monitor.desktop): Failed to execute child process “/usr/libexec/deja-dup/deja-dup-monitor” (No such file or directory)
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+
+(xfce4-session:998): xfce4-session-WARNING **: 04:55:55.881: Unable to launch "/usr/libexec/tracker-extract" (specified by autostart/tracker-extract.desktop): Failed to execute child process “/usr/libexec/tracker-extract” (No such file or directory)
+Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Tracker1 was not provided by any .service files
+
+(xfce4-session:998): xfce4-session-WARNING **: 04:55:55.913: Unable to launch "xdg-user-dirs-gtk-update" (specified by autostart/user-dirs-update-gtk.desktop): Failed to execute child process “xdg-user-dirs-gtk-update” (No such file or directory)
+
+(xfce4-session:998): xfce4-session-WARNING **: 04:55:55.978: Unable to launch "/usr/libexec/tracker-miner-fs" (specified by autostart/tracker-miner-fs.desktop): Failed to execute child process “/usr/libexec/tracker-miner-fs” (No such file or directory)
+
+(xfce4-session:998): xfce4-session-WARNING **: 04:55:56.318: Unable to launch "/usr/bin/spice-vdagent" (specified by autostart/spice-vdagent.desktop): Failed to execute child process “/usr/bin/spice-vdagent” (No such file or directory)
+
+** (wrapper-2.0:1490): WARNING **: 04:55:56.328: No outputs have backlight property
+
+** (light-locker:1528): ERROR **: 04:55:56.467: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(wrapper-2.0:1494): GLib-GIO-CRITICAL **: 04:55:56.791: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1494): GLib-GIO-CRITICAL **: 04:55:56.791: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1494): GLib-GObject-WARNING **: 04:55:56.791: invalid (NULL) pointer instance
+
+(wrapper-2.0:1494): GLib-GObject-CRITICAL **: 04:55:56.791: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1494): Gtk-WARNING **: 04:55:56.791: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:1494): Gtk-WARNING **: 04:55:57.103: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1490): Gtk-WARNING **: 04:55:57.103: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(nm-applet:1472): Gdk-CRITICAL **: 04:55:57.242: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(wrapper-2.0:1485): Gtk-WARNING **: 04:55:57.431: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+** (xiccd:1508): WARNING **: 04:55:57.967: EDID is empty
+
+** (xiccd:1508): CRITICAL **: 04:55:58.009: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+Geolocation service not in use
+
+** (xiccd:1508): CRITICAL **: 04:56:02.980: device 'xrandr-default' does not exist
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:10.851: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:10.949: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:10.949: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:10.987: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.052: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.056: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.082: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.082: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.083: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.083: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.083: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.084: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.084: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.086: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.086: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.086: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.087: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.087: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.089: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.089: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.090: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.092: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.092: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.093: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.093: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.093: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.095: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.095: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.097: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.097: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.098: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.099: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.099: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.101: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.101: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.101: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.102: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.102: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.103: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.103: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.103: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.105: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.105: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.106: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.106: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.106: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.107: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.107: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.107: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.107: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.107: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.108: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.108: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.109: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.109: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.109: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.110: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.110: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.111: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.111: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.111: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.114: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.114: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.115: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.115: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.115: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.116: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.116: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.117: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.117: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.117: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.118: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.118: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.119: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.119: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.119: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.119: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.120: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.120: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.120: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.120: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.134: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.134: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.135: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.135: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.135: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.136: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.136: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.137: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.137: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.137: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.138: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.138: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.139: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.139: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.139: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.140: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.140: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.141: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.141: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.141: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.142: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.142: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.143: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.143: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.143: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.143: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.143: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.144: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.144: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.144: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.145: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.145: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.146: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.146: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.146: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.147: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.147: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.148: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.148: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.148: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.149: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.149: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.149: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.149: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.150: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.150: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.150: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.151: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.151: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.151: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.152: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.152: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.153: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.153: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.153: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.154: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.154: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.155: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.155: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): GLib-CRITICAL **: 09:00:11.155: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.156: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.156: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1490): libupower-glib-CRITICAL **: 09:00:11.162: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1490): GLib-GObject-CRITICAL **: 09:00:11.162: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Gdk-Message: 09:00:11.206: xfce4-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+
+(Thunar:1441): thunar-WARNING **: 09:00:11.223: Name 'org.xfce.FileManager' lost on the message dbus.
+
+(Thunar:1441): thunar-WARNING **: 09:00:11.223: Name 'org.freedesktop.FileManager1' lost on the message dbus.
+xfsettingsd: Another instance took over. Leaving...
+
+(xfce4-panel:1393): xfce4-panel-CRITICAL **: 09:00:11.230: Name org.xfce.Panel lost on the message dbus, exiting.
+Gdk-Message: 09:00:11.259: xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+
+** (xiccd:1508): WARNING **: 09:00:11.305: Exiting
+Terminated
+Gdk-Message: 09:00:11.398: xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+Gdk-Message: 09:00:11.402: xfce4-panel: Fatal IO error 25 (Inappropriate ioctl for device) on X server :1.
+
+Gdk-Message: 09:00:11.416: xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+Gdk-Message: 09:00:11.417: wrapper-2.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+Gdk-Message: 09:00:11.418: wrapper-2.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+Gdk-Message: 09:00:11.418: wrapper-2.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+Gdk-Message: 09:00:11.421: wrapper-2.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+XIO:  fatal IO error 25 (Inappropriate ioctl for device) on X server ":1.0"
+      after 20 requests (20 known processed) with 0 events remaining.
+Gdk-Message: 09:00:11.422: wrapper-2.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+
+Fri Mar 22 09:00:11 2024
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Xvnc TigerVNC 1.10.0 - built Jan 23 2024 20:31:07
+Copyright (C) 1999-2019 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12013000, The X.Org Foundation
+
+
+Fri Mar 22 09:31:48 2024
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5901
+ vncext:      created VNC server for screen 0
+xrdb: No such file or directory
+xrdb: can't open file '/home/cloud_user/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+gpg-agent[1363]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:1139): xfce4-session-WARNING **: 09:32:01.681: gpg-agent returned no PID in the variables
+
+(xfce4-session:1139): xfce4-session-WARNING **: 09:32:01.692: xfsm_manager_load_session: Something wrong with /home/cloud_user/.cache/sessions/xfce4-session-eda92aabbf1c.mylabserver.com:1, Does it exist? Permissions issue?
+
+(xfwm4:1366): xfwm4-WARNING **: 09:32:08.074: Unsupported GL renderer (llvmpipe (LLVM 12.0.0, 256 bits)).
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+
+(xfce4-session:1139): xfce4-session-WARNING **: 09:32:09.691: Unable to launch "/usr/bin/ubuntu-report send upgrade" (specified by autostart/ubuntu-report-on-upgrade.desktop): Failed to execute child process “/usr/bin/ubuntu-report” (No such file or directory)
+
+(xfce4-session:1139): xfce4-session-WARNING **: 09:32:09.865: Unable to launch "/usr/libexec/deja-dup/deja-dup-monitor" (specified by autostart/org.gnome.DejaDup.Monitor.desktop): Failed to execute child process “/usr/libexec/deja-dup/deja-dup-monitor” (No such file or directory)
+
+(xfce4-session:1139): xfce4-session-WARNING **: 09:32:09.876: Unable to launch "/usr/libexec/tracker-extract" (specified by autostart/tracker-extract.desktop): Failed to execute child process “/usr/libexec/tracker-extract” (No such file or directory)
+
+(xfce4-session:1139): xfce4-session-WARNING **: 09:32:09.880: Unable to launch "xdg-user-dirs-gtk-update" (specified by autostart/user-dirs-update-gtk.desktop): Failed to execute child process “xdg-user-dirs-gtk-update” (No such file or directory)
+Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Tracker1 was not provided by any .service files
+
+(xfce4-session:1139): xfce4-session-WARNING **: 09:32:09.930: Unable to launch "/usr/libexec/tracker-miner-fs" (specified by autostart/tracker-miner-fs.desktop): Failed to execute child process “/usr/libexec/tracker-miner-fs” (No such file or directory)
+
+(xfce4-session:1139): xfce4-session-WARNING **: 09:32:10.046: Unable to launch "/usr/bin/spice-vdagent" (specified by autostart/spice-vdagent.desktop): Failed to execute child process “/usr/bin/spice-vdagent” (No such file or directory)
+
+** (light-locker:1543): ERROR **: 09:32:10.119: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+** (wrapper-2.0:1555): WARNING **: 09:32:11.164: No outputs have backlight property
+
+(nm-applet:1510): Gdk-CRITICAL **: 09:32:11.246: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(wrapper-2.0:1556): GLib-GIO-CRITICAL **: 09:32:11.288: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1556): GLib-GIO-CRITICAL **: 09:32:11.289: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1556): GLib-GObject-WARNING **: 09:32:11.289: invalid (NULL) pointer instance
+
+(wrapper-2.0:1556): GLib-GObject-CRITICAL **: 09:32:11.289: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1556): Gtk-WARNING **: 09:32:11.289: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:1553): Gtk-WARNING **: 09:32:11.418: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:1556): Gtk-WARNING **: 09:32:11.456: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1555): Gtk-WARNING **: 09:32:11.514: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+** (xiccd:1533): WARNING **: 09:32:12.109: EDID is empty
+
+** (xiccd:1533): CRITICAL **: 09:32:12.238: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+Geolocation service not in use
+
+** (xiccd:1533): CRITICAL **: 09:32:17.950: device 'xrandr-default' does not exist
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.029: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.215: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.215: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.244: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.244: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.249: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.253: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.253: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.254: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.254: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.254: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.255: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.255: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.256: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.256: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.256: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.258: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.258: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.259: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.259: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.259: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.260: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.260: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.261: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.262: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.262: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.263: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.263: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.265: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.265: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.265: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.266: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.266: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.268: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.268: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.268: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.269: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.269: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.270: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.270: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.270: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.271: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.271: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.272: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.272: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.272: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.275: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.275: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.276: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.276: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.276: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.278: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.278: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.279: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.279: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.279: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.280: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.280: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.281: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.281: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.281: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.282: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.282: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.283: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.283: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.283: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.284: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.284: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.285: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.285: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.285: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.287: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.287: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.288: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.288: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.288: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.289: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.289: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.290: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.290: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.290: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.291: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.291: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.292: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.292: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.292: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.293: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.293: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.294: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.294: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.294: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.295: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.295: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.296: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.296: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.296: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.305: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.305: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Gdk-Message: 13:35:07.309: xfce4-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.314: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.314: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.314: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.320: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.321: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Gdk-Message: 13:35:07.323: xfwm4: Fatal IO error 104 (Connection reset by peer) on X server :1.
+
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.325: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.325: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.326: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.326: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.326: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(Thunar:1468): thunar-WARNING **: 13:35:07.358: Name 'org.xfce.FileManager' lost on the message dbus.
+
+(Thunar:1468): thunar-WARNING **: 13:35:07.358: Name 'org.freedesktop.FileManager1' lost on the message dbus.
+xfsettingsd: Another instance took over. Leaving...
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.363: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.364: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.364: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.382: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.382: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.385: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.385: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.385: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.394: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.394: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.396: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.396: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.397: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.399: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.399: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.404: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.404: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.404: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.416: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.416: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.418: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.418: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.418: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.420: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.420: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.422: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.422: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.422: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.426: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.426: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.429: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.429: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): GLib-CRITICAL **: 13:35:07.430: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.444: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.444: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1555): libupower-glib-CRITICAL **: 13:35:07.448: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1555): GLib-GObject-CRITICAL **: 13:35:07.448: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+** (xiccd:1533): WARNING **: 13:35:07.448: Exiting
+Gdk-Message: 13:35:07.493: xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+Gdk-Message: 13:35:07.499: xfce4-panel: Fatal IO error 4 (Interrupted system call) on X server :1.
+
+Gdk-Message: 13:35:07.503: xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+XIO:  fatal IO error 25 (Inappropriate ioctl for device) on X server ":1.0"
+      after 20 requests (20 known processed) with 0 events remaining.
+Gdk-Message: 13:35:07.514: wrapper-2.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+Gdk-Message: 13:35:07.518: wrapper-2.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+Gdk-Message: 13:35:07.523: wrapper-2.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+Gdk-Message: 13:35:07.528: wrapper-2.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+
+Fri Mar 22 13:35:07 2024
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Xvnc TigerVNC 1.10.0 - built Jan 23 2024 20:31:07
+Copyright (C) 1999-2019 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12013000, The X.Org Foundation
+
+
+Tue Mar 26 04:57:30 2024
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5901
+ vncext:      created VNC server for screen 0
+xrdb: No such file or directory
+xrdb: can't open file '/home/cloud_user/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+gpg-agent[1356]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:1156): xfce4-session-WARNING **: 04:57:43.476: gpg-agent returned no PID in the variables
+
+(xfce4-session:1156): xfce4-session-WARNING **: 04:57:43.483: xfsm_manager_load_session: Something wrong with /home/cloud_user/.cache/sessions/xfce4-session-eda92aabbf1c.mylabserver.com:1, Does it exist? Permissions issue?
+
+(xfwm4:1362): xfwm4-WARNING **: 04:57:50.603: Unsupported GL renderer (llvmpipe (LLVM 12.0.0, 256 bits)).
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+
+(xfce4-session:1156): xfce4-session-WARNING **: 04:57:52.301: Unable to launch "/usr/bin/ubuntu-report send upgrade" (specified by autostart/ubuntu-report-on-upgrade.desktop): Failed to execute child process “/usr/bin/ubuntu-report” (No such file or directory)
+
+(xfce4-session:1156): xfce4-session-WARNING **: 04:57:52.325: Unable to launch "/usr/libexec/deja-dup/deja-dup-monitor" (specified by autostart/org.gnome.DejaDup.Monitor.desktop): Failed to execute child process “/usr/libexec/deja-dup/deja-dup-monitor” (No such file or directory)
+
+(xfce4-session:1156): xfce4-session-WARNING **: 04:57:52.386: Unable to launch "/usr/libexec/tracker-extract" (specified by autostart/tracker-extract.desktop): Failed to execute child process “/usr/libexec/tracker-extract” (No such file or directory)
+
+(xfce4-session:1156): xfce4-session-WARNING **: 04:57:52.390: Unable to launch "xdg-user-dirs-gtk-update" (specified by autostart/user-dirs-update-gtk.desktop): Failed to execute child process “xdg-user-dirs-gtk-update” (No such file or directory)
+Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Tracker1 was not provided by any .service files
+
+(xfce4-session:1156): xfce4-session-WARNING **: 04:57:52.404: Unable to launch "/usr/libexec/tracker-miner-fs" (specified by autostart/tracker-miner-fs.desktop): Failed to execute child process “/usr/libexec/tracker-miner-fs” (No such file or directory)
+
+(xfce4-session:1156): xfce4-session-WARNING **: 04:57:52.642: Unable to launch "/usr/bin/spice-vdagent" (specified by autostart/spice-vdagent.desktop): Failed to execute child process “/usr/bin/spice-vdagent” (No such file or directory)
+
+** (light-locker:1586): ERROR **: 04:57:52.686: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(wrapper-2.0:1608): GLib-GIO-CRITICAL **: 04:57:53.760: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1608): GLib-GIO-CRITICAL **: 04:57:53.760: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1608): GLib-GObject-WARNING **: 04:57:53.760: invalid (NULL) pointer instance
+
+(wrapper-2.0:1608): GLib-GObject-CRITICAL **: 04:57:53.760: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1608): Gtk-WARNING **: 04:57:53.760: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(nm-applet:1551): Gdk-CRITICAL **: 04:57:53.863: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(wrapper-2.0:1608): Gtk-WARNING **: 04:57:53.882: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+** (wrapper-2.0:1607): WARNING **: 04:57:53.924: No outputs have backlight property
+
+(wrapper-2.0:1606): Gtk-WARNING **: 04:57:54.026: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:1607): Gtk-WARNING **: 04:57:54.109: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+** (xiccd:1571): WARNING **: 04:57:54.199: EDID is empty
+
+** (xiccd:1571): CRITICAL **: 04:57:54.216: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+Geolocation service not in use
+
+** (xiccd:1571): CRITICAL **: 04:58:01.001: device 'xrandr-default' does not exist
+Error executing command as another user: Not authorized
+
+This incident has been reported.
+Error executing command as another user: Not authorized
+
+This incident has been reported.
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:04.593: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.783: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.791: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.800: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.800: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:04.809: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.812: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.813: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.824: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.824: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:04.824: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.832: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.832: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.846: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.846: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:04.846: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.862: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.862: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.872: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.872: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:04.872: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.873: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.873: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.873: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.874: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:04.874: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.874: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.874: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.875: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.875: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:04.875: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.876: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.876: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.877: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.877: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:04.877: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.878: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.878: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.878: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.878: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:04.878: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.879: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.879: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.880: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.880: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:04.880: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.881: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.881: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.882: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.882: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:04.882: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.882: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.882: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.883: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.883: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:04.883: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.884: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.884: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.885: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.885: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:04.885: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.887: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.887: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.888: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.888: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:04.888: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.889: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.889: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.890: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.890: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:04.890: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.891: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.891: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.892: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.892: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:04.892: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.893: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.893: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.894: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.894: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:04.894: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.896: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.896: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Gdk-Message: 09:00:04.898: xfce4-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+
+(xfce4-panel:1471): xfce4-panel-CRITICAL **: 09:00:04.909: Name org.xfce.Panel lost on the message dbus, exiting.
+
+(Thunar:1509): thunar-WARNING **: 09:00:04.909: Name 'org.xfce.FileManager' lost on the message dbus.
+
+(Thunar:1509): thunar-WARNING **: 09:00:04.910: Name 'org.freedesktop.FileManager1' lost on the message dbus.
+xfsettingsd: Another instance took over. Leaving...
+Gdk-Message: 09:00:04.931: xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.967: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.967: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:04.967: g_strrstr: assertion 'haystack != NULL' failed
+
+** (xiccd:1571): WARNING **: 09:00:04.968: Exiting
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.983: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.983: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:04.999: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:04.999: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:05.000: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:05.002: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:05.002: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:05.003: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:05.003: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:05.003: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:05.009: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:05.009: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:05.013: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:05.013: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:05.013: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:05.015: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:05.015: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:05.015: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:05.015: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:05.015: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:05.019: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:05.019: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:05.041: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:05.041: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:05.042: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:05.043: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:05.043: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:05.044: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:05.044: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:05.044: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:05.050: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:05.051: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:05.059: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:05.059: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:05.059: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:05.061: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:05.061: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:05.062: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:05.062: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:05.062: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:05.063: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:05.063: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:05.064: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:05.064: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:05.064: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:05.065: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:05.065: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:05.066: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:05.066: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:05.066: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:05.067: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:05.067: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:05.068: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:05.068: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1607): GLib-CRITICAL **: 09:00:05.068: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:05.069: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:05.069: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Gdk-Message: 09:00:05.077: xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+
+(wrapper-2.0:1607): libupower-glib-CRITICAL **: 09:00:05.070: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1607): GLib-GObject-CRITICAL **: 09:00:05.078: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Gdk-Message: 09:00:05.083: xfce4-panel: Fatal IO error 25 (Inappropriate ioctl for device) on X server :1.
+
+XIO:  fatal IO error 25 (Inappropriate ioctl for device) on X server ":1.0"
+      after 20 requests (20 known processed) with 0 events remaining.
+Gdk-Message: 09:00:05.089: wrapper-2.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+Gdk-Message: 09:00:05.092: wrapper-2.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+Gdk-Message: 09:00:05.095: wrapper-2.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+Gdk-Message: 09:00:05.095: xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+Gdk-Message: 09:00:05.111: wrapper-2.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+
+Tue Mar 26 09:00:05 2024
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Xvnc TigerVNC 1.10.0 - built Jan 23 2024 20:31:07
+Copyright (C) 1999-2019 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12013000, The X.Org Foundation
+
+
+Tue Mar 26 09:29:12 2024
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5901
+ vncext:      created VNC server for screen 0
+xrdb: No such file or directory
+xrdb: can't open file '/home/cloud_user/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+gpg-agent[1350]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:998): xfce4-session-WARNING **: 09:29:25.461: gpg-agent returned no PID in the variables
+
+(xfce4-session:998): xfce4-session-WARNING **: 09:29:25.473: xfsm_manager_load_session: Something wrong with /home/cloud_user/.cache/sessions/xfce4-session-eda92aabbf1c.mylabserver.com:1, Does it exist? Permissions issue?
+
+(xfwm4:1354): xfwm4-WARNING **: 09:29:31.310: Unsupported GL renderer (llvmpipe (LLVM 12.0.0, 256 bits)).
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+
+(xfce4-session:998): xfce4-session-WARNING **: 09:29:33.429: Unable to launch "/usr/bin/ubuntu-report send upgrade" (specified by autostart/ubuntu-report-on-upgrade.desktop): Failed to execute child process “/usr/bin/ubuntu-report” (No such file or directory)
+
+** (wrapper-2.0:1433): WARNING **: 09:29:33.616: No outputs have backlight property
+
+(xfce4-session:998): xfce4-session-WARNING **: 09:29:33.626: Unable to launch "/usr/libexec/deja-dup/deja-dup-monitor" (specified by autostart/org.gnome.DejaDup.Monitor.desktop): Failed to execute child process “/usr/libexec/deja-dup/deja-dup-monitor” (No such file or directory)
+
+(xfce4-session:998): xfce4-session-WARNING **: 09:29:33.680: Unable to launch "/usr/libexec/tracker-extract" (specified by autostart/tracker-extract.desktop): Failed to execute child process “/usr/libexec/tracker-extract” (No such file or directory)
+Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Tracker1 was not provided by any .service files
+
+(wrapper-2.0:1434): GLib-GIO-CRITICAL **: 09:29:33.738: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1434): GLib-GIO-CRITICAL **: 09:29:33.738: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1434): GLib-GObject-WARNING **: 09:29:33.738: invalid (NULL) pointer instance
+
+(wrapper-2.0:1434): GLib-GObject-CRITICAL **: 09:29:33.738: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1434): Gtk-WARNING **: 09:29:33.738: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(xfce4-session:998): xfce4-session-WARNING **: 09:29:33.754: Unable to launch "xdg-user-dirs-gtk-update" (specified by autostart/user-dirs-update-gtk.desktop): Failed to execute child process “xdg-user-dirs-gtk-update” (No such file or directory)
+
+(xfce4-session:998): xfce4-session-WARNING **: 09:29:33.894: Unable to launch "/usr/libexec/tracker-miner-fs" (specified by autostart/tracker-miner-fs.desktop): Failed to execute child process “/usr/libexec/tracker-miner-fs” (No such file or directory)
+
+(wrapper-2.0:1434): Gtk-WARNING **: 09:29:33.963: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1433): Gtk-WARNING **: 09:29:34.063: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(xfce4-session:998): xfce4-session-WARNING **: 09:29:34.123: Unable to launch "/usr/bin/spice-vdagent" (specified by autostart/spice-vdagent.desktop): Failed to execute child process “/usr/bin/spice-vdagent” (No such file or directory)
+
+(wrapper-2.0:1432): Gtk-WARNING **: 09:29:34.154: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+** (light-locker:1505): ERROR **: 09:29:34.359: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(nm-applet:1468): Gdk-CRITICAL **: 09:29:34.668: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+** (xiccd:1488): WARNING **: 09:29:35.791: EDID is empty
+
+** (xiccd:1488): CRITICAL **: 09:29:35.807: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+Geolocation service not in use
+
+** (xiccd:1488): CRITICAL **: 09:29:44.335: device 'xrandr-default' does not exist
+Error executing command as another user: Not authorized
+
+This incident has been reported.
+Error executing command as another user: Not authorized
+
+This incident has been reported.
