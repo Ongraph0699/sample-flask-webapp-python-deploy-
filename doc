@@ -1,0 +1,203 @@
+
+Log file find
+Nginx ke log and flask logs find find another way of deployment
+Proxy
+Upstream vs proxy pass
+Nginx conf file importance
+ Read deeply Sites-available and sites-enabled
+Server block
+Ssl generate pem key read and find path of it
+Chain.pem
+full .pem
+Privkey.pem read in details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Step 1 install and updates packages and dependencies
+sudo apt update
+sudo apt upgrade
+ sudo apt install python3 python3-pip
+ sudo apt install nginx
+Step 2 start nginx
+ systemctl start nginx
+ systemctl enable nginx
+Step 3 create a parent directory
+Mkdir -p /new/project
+Cd project
+Step 4 write flaskapp.py file
+Vi flaskapp.py
+from flask import Flask
+app = Flask(__name__)
+@app.route("/")
+def hello():
+	return "Welcome to Flask Application hello buddy i got this===================================kndfdklsnfln.sfd,=!"
+if __name__ == "__main__":
+	app.run(host='0.0.0.0')
+
+
+ vi wsgi.py
+from flaskapp import app
+if __name__ == "__main__":
+	app.run()
+
+ Step 5 pip install flask
+So we get flask modules
+Step 6 create virtual env in which our application run for production env
+python3 -m venv venv
+Step 7 activate our virtual env by source command
+source venv/bin/activate
+Step 8 install gunicorn for running our application on gunicorn
+pip install gunicorn flask
+Step 9 port binding on port 5000 our flask application with python module:variable 
+gunicorn --bind 0.0.0.0:5000 wsgi:app
+Run application from below command
+python3 flaskapp.py
+Step 10 create a back ground service name of it flask.service inside system directory
+sudo nano /etc/systemd/system/flask.service
+flask.service
+[Unit]
+Description=Gunicorn instance to serve Flask
+After=network.target
+[Service]
+User=cloud_user
+Group=www-data
+WorkingDirectory=/home/cloud_user/new/project
+Environment="PATH=/home/cloud_user/new/project/venv/bin"
+ExecStart=/home/cloud_user/.local/bin/gunicorn --bind 0.0.0.0:5000 wsgi:app
+[Install]
+WantedBy=multi-user.target
+
+Step 11 adding ownership and permission with file path 
+sudo chown -R cloud_user:www-data /home/cloud_user/new/project
+ sudo chown -R 775 /home/cloud_user/new/project
+Step 12 reload flask module and check status 
+ sudo systemctl daemon-reload
+ sudo systemctl start flask
+ sudo systemctl enable flask
+ sudo systemctl status flask
+Step 13 create a flask.conf.back file inside conf.d directory 
+ sudo nano /etc/nginx/conf.d/flask.conf.back
+server {
+	listen 80;
+	server_name flask.example.com;
+	location / {
+    	include proxy_params;
+    	proxy_pass  http://127.0.0.1:5000;
+	}
+}
+
+
+Step 14 dry run check
+  sudo nginx -t
+Step 15 through no ip website create random domain server for our ip
+34.210.85.219 to rflask.ddns.net
+Step 16 Create flaskapp file inside nginx-site available and ssl certificates adding by certbot. 
+sudo certbot --nginx
+
+sudo snap install --classic certbot
+sudo vi flaskapp
+server {
+server_name   rflask.ddns.net;
+
+#return 301 https://hermes.my-domain.com$request_uri;
+#}
+
+#server {
+
+#listen	443;
+#ssl_certificate       	/etc/certs/ssl/bundle.crt;
+#ssl_certificate_key   	/etc/certs/ssl/server.key;
+
+	location / {
+    	proxy_pass http://localhost:5000;
+    	proxy_redirect off;
+    	proxy_set_header Host $host:$server_port;
+    	proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    	proxy_set_header X-Forwarded-Ssl on;
+	}
+
+	listen 443 ssl; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/rflask.ddns.net/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/rflask.ddns.net/privkey.pem; # managed by Certbot
+	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+}
+server {
+	if ($host = rflask.ddns.net) {
+    	return 301 https://$host$request_uri;
+	} # managed by Certbot
+
+
+
+listen	80;
+server_name   rflask.ddns.net;
+	return 404; # managed by Certbot
+
+}
+Step 17 create symbolic link
+   sudo ln -s /etc/nginx/sites-available/flaskapp /etc/nginx/sites-enabled/
+Step 18 Dry run check nginx
+  sudo nginx -t
+ Step 19 after getting ok status we reload nginx it is best best reload instead of restart we get zero downtime if configuration correct
+ sudo nginx -s reload
+
+Step 20 changing file permission.
+
+sudo chmod 777 flaskapp.py
+Run application 
+
+sudo systemctl start Flask
+ sudo systemctl start flask
+ sudo systemctl enable flask
+ sudo systemctl status flask
+
+
+ sudo systemctl daemon-reload
+
+ sudo systemctl start flask.service
+
+ sudo systemctl status flask.service
+
+
+
+
+
+
+
+
+
+
+
+
